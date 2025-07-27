@@ -6,4 +6,24 @@ let isPresent = true
 let state;
 let city = null;
 console.log(typeof undefined);
-console.log(typeof name);
+console.log(typeof name);``
+console.log(typeof NaN);
+
+//datatypes
+
+//stack(premitive types, copy of the data is provided) , heap(non-primitive types, refrence of the data is provided)
+let myName = "ashi";
+let anotherName = myName;
+anotherName="ashu";
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    userID : 1234,
+    userName: "Ashi"
+
+}
+let userTwo = userOne
+userTwo.userID=321
+console.log(userOne);
+console.log(userTwo);
