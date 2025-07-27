@@ -10,6 +10,8 @@ console.log(typeof name);``
 console.log(typeof NaN);
 
 //datatypes
+//primitive--int, big int, NaN, string, boolean, 
+//non-primitive---object,array,function
 
 //stack(premitive types, copy of the data is provided) , heap(non-primitive types, refrence of the data is provided)
 let myName = "ashi";
