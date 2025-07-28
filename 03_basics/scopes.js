@@ -8,11 +8,15 @@ function one(){
     two()
 }
 one()
+
+//int this declaration we can give refrence on the top as well
+//addone(5)
 function addone(num){
     return num + 1
 }
 console.log(addone(5))
-
+//depends how you are declaring function
+//in this we cannot give refrence without declaring
 const addTwo = function(num){
     return num + 2
 }
