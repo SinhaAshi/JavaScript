@@ -1,7 +1,7 @@
 //if
 
 if(true){
-    get inside this
+   // get inside this
 }
 // if (balance > 500) console.log("test"), console.log("test2");//bad practise
 
