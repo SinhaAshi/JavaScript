@@ -5,7 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
+for (const num of arr) { // you can write anything in place of num
     console.log(num);
 }
 
@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps--stores unique key value pairs and if we put two same values it will be printed once only
 
 const map = new Map()
 map.set('IN', "India")
@@ -23,18 +23,18 @@ map.set('Fr', "France")
 map.set('IN', "India")
 
 
-// console.log(map);
+console.log(map);
 
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
 
-const myObject = {
+const myObject = {   
     game1: 'NFS',
     game2: 'Spiderman'
 }
 
 // for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+ //    console.log(key, ':-', value);
     
 // }
